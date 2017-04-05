@@ -16,7 +16,7 @@ setup(
     description="Tools for managing shoe contract data for BYU Sports Statistics.",
     long_description=readme,
     author=shoecontracts.__author__,
-    author_email='chrisbeckett8@byu.edu',
+    author_email='chrisbeckett6@byu.edu',
     url='https://github.com/byu-stats-sports/shoecontracts',
     packages=find_packages(),
     entry_points = {
