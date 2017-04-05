@@ -12,15 +12,15 @@ with open('README.md') as readme_file:
 
 setup(
     name='shoecontracts',
-    version=nba.__version__,
+    version=shoecontracts.__version__,
     description="Tools for managing shoe contract data for BYU Sports Statistics.",
     long_description=readme,
-    author=nba.__author__,
+    author=shoecontracts.__author__,
     author_email='chrisbeckett7@byu.edu',
     url='https://github.com/byu-stats-sports/shoecontracts',
     packages=find_packages(),
     entry_points = {
-        "console_scripts": ['nba = nba.__main__:main']
+        "console_scripts": ['shoecontracts = shoecontracts.__main__:main']
     },
     include_package_data=True,
     install_requires=[
@@ -29,9 +29,9 @@ setup(
         'requests-cache',
         'python-dateutil'
     ],
-    license=nba.__licence__,
+    license=shoecontracts.__licence__,
     zip_safe=False,
-    keywords='stats statistics nba',
+    keywords='stats statistics nba shoe contracts',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',
