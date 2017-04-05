@@ -1,5 +1,4 @@
 # shoe_contracts
-# nba
 
 Downloads data using the [stats.nba.com](http://stats.nba.com) API via the [nba_py](https://github.com/seemethere/nba_py) package, as well as [nbashoesdb.com](http://nbashoesdb.com) as a webscrape and updates the MySQL database designated by the `BYU_NBA_DATABASE_URL` environment variable using the [peewee](http://docs.peewee-orm.com/en/latest/) database Object Relational Map (ORM). 
 
