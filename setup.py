@@ -7,7 +7,7 @@ except ImportError:
 import sys
 import shoecontracts
 
-with open('README.md') as readme_file:
+with open('README2.md') as readme_file:
     readme = readme_file.read()
 
 setup(
