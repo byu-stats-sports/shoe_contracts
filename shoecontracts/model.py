@@ -23,7 +23,7 @@ class Teams(orm.Model):
     headcoach = orm.CharField(null=True)
     dleagueaffiliation = orm.TextField(null=True)
 
-    class Players(orm.Model):
+class Players(orm.Model):
     player_id = orm.PrimaryKeyField()
     first_name = orm.CharField()
     last_name = orm.CharField()
